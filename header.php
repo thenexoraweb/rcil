@@ -81,7 +81,6 @@
                                             <li><a href="about.html">About Us</a></li>
                                             <li><a href="project.html">Products</a></li>
                                             <li><a href="services.html">Services</a></li>
-                                            <li><a href="#">Career</a></li>
                                             <li><a href="contact.html">Contact Us</a></li>
                                         </ul>
                                     </nav>
