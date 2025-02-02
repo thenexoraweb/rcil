@@ -1746,14 +1746,18 @@ to {
 }
 }@media only screen and (min-width: 576px) and (max-width: 767px) {
     .section-tittle span.back-text {
-    font-size: 56px;
-    transform: translateY(-136%);
+		font-size: 56px;
+		transform: translateY(-136%);
+	}
 }
-}@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
     .section-tittle span.back-text {
-    font-size: 127px;
+		font-size: 127px;
+	}
+	
 }
-}.section-tittle.section-tittle2 .front-text h2 {
+
+.section-tittle.section-tittle2 .front-text h2 {
     font-size: 50px;
 }
 @media (max-width: 575px) {
@@ -2093,9 +2097,58 @@ to {
 }
 }@media (max-width: 575px) {
     .main-header .logo .big-logo {
-    display: none;
+		display: block;
+	}
+	
 }
-}.main-header ul>li:hover>ul.submenu {
+
+@media (max-width: 768px){
+	.header-area .slicknav_btn { top: -55px !important; }
+	.logo img {
+		height: 80px !important;
+	}
+	.support-company-area .support-wrapper .left-content{
+		 padding-right: 15px;
+        padding-left: 15px !important;
+	}
+	.pt-10 {
+		padding-top: 40px;
+	}
+	.support-company-area .support-wrapper .left-content .support-caption p{
+		font-size: 16px;
+	}
+	.services-area1 {
+		padding-bottom: 30px !important;
+		padding-top: 60px !important;
+	}
+	p{
+		font-size: 16px;
+	}
+
+	.count-area .count-clients .single-counter {
+		padding: 20px 0 !important;
+	}
+	.count-area .count-clients .single-counter .count-number span {
+		font-size: 40px !important;
+	}
+	.count-area .count-clients .single-counter .count-text p{margin-bottom: 3px !important;}
+	.count-area .count-clients .single-counter .count-text h5 {
+		font-size: 28px !important;
+	}
+	.support-company-area .support-wrapper .left-content .support-caption p{
+		font-size: 16px !important;
+		margin-bottom: 0 !important;
+	}
+	.section-tittle .front-text h2 {
+		font-size: 46px !important;
+	}
+	.why_choose {margin-top: 0 !important;}
+	.career_wrapper ul {
+		padding-left: 15px !important;
+	}
+
+}
+.main-header ul>li:hover>ul.submenu {
     visibility: visible;
     opacity: 1;
     top: 100%}
@@ -2541,8 +2594,8 @@ to {
     width: 49%}
 }@media only screen and (min-width: 1441px) and (max-width: 1800px) {
     .support-company-area .support-wrapper .left-content {
-    padding-left: 200px;
-    width: 49%}
+    padding-left: 140px;
+    width: 50%}
 }@media only screen and (min-width: 992px) and (max-width: 1200px) {
     .support-company-area .support-wrapper .left-content {
     width: 100%;
@@ -5752,7 +5805,10 @@ ol.breadcrumb .breadcrumb-item {
     font-size: 17px;
     text-transform: uppercase;
 }
-
+.why_choose_us{
+	font-size: 24px;
+    font-weight: 600;
+}
 .why_choose{
 	margin-top: 40px;
 }
@@ -5783,9 +5839,12 @@ ol.breadcrumb .breadcrumb-item {
 }
 .services_wrapper h4{
 	font-weight: 600;
-    font-size: 20px;
+    font-size: 19px;
     letter-spacing: 0.3px;
-    margin-top: 20px;
+    margin-top: 10px;
+}
+.service_content.od_service{
+	height: 198px;
 }
 .services_wrapper img{
 	width: 100%;    
